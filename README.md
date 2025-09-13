@@ -1,4 +1,4 @@
-# Government Schemes Portal
+# FindScheme
 
 A comprehensive web application for managing and discovering government schemes in India. This platform allows users to browse available schemes, apply for them, and enables administrators to manage scheme submissions and user inquiries.
 
