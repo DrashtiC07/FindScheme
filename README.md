@@ -38,7 +38,7 @@ A comprehensive web application for managing and discovering government schemes 
 ## 📁 Project Structure
 
 \`\`\`
-government-schemes-portal/
+findscheme/
 ├── client/                 # Frontend React application
 │   ├── public/            # Static assets
 │   ├── src/
