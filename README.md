@@ -132,7 +132,7 @@ government-schemes-portal/
 
 ### Environment Variables
 
-For production deployment, set the following environment variables:
+For  deployment, set the following environment variables:
 
 - `NODE_ENV=production`
 - `MONGO_URI` - MongoDB connection string
@@ -189,9 +189,6 @@ The application uses MongoDB with the following collections:
 - **Input Validation**: Server-side validation for all user inputs
 - **CORS Protection**: Configured for secure cross-origin requests
 
-## 🚀 Deployment
-
-### Production Deployment
 
 1. **Build the Frontend**
    \`\`\`bash
@@ -212,46 +209,3 @@ The application uses MongoDB with the following collections:
    npm start
    \`\`\`
 
-### Docker Deployment (Optional)
-
-Create a `Dockerfile` in the root directory:
-\`\`\`dockerfile
-FROM node:16-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-EXPOSE 5000
-CMD ["npm", "start"]
-\`\`\`
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Team
-
-- **Developer**: Drashti C
-- **GitHub**: [@DrashtiC07](https://github.com/DrashtiC07)
-
-## 🐛 Bug Reports & Feature Requests
-
-Please use the [GitHub Issues](https://github.com/DrashtiC07/government-schemes-portal/issues) page to report bugs or request new features.
-
-## 📞 Support
-
-For support and questions, please contact:
-- Email: [your-email@example.com]
-- GitHub Issues: [Project Issues Page](https://github.com/DrashtiC07/government-schemes-portal/issues)
-
----
-
-**Made with ❤️ for the people of India**
