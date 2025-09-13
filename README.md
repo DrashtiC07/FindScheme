@@ -76,8 +76,8 @@ findscheme/
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/DrashtiC07/government-schemes-portal.git
-   cd government-schemes-portal
+   git clone https://github.com/DrashtiC07/FindScheme.git
+   cd FindScheme
    \`\`\`
 
 2. **Install Backend Dependencies**
@@ -99,7 +99,7 @@ findscheme/
    **server/config/dev.js**
    \`\`\`javascript
    module.exports = {
-     MONGO_URI: "mongodb://localhost:27017/government-schemes",
+     MONGO_URI: "mongodb://localhost:27017/FindScheme",
      JWT_SECRET: "your-jwt-secret-key-here"
    };
    \`\`\`
