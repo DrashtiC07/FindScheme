@@ -38,7 +38,7 @@ A comprehensive web application for managing and discovering government schemes 
 ## 📁 Project Structure
 
 \`\`\`
-government-schemes-portal/
+findscheme/
 ├── client/                 # Frontend React application
 │   ├── public/            # Static assets
 │   ├── src/
@@ -76,8 +76,8 @@ government-schemes-portal/
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/DrashtiC07/government-schemes-portal.git
-   cd government-schemes-portal
+   git clone https://github.com/DrashtiC07/FindScheme.git
+   cd FindScheme
    \`\`\`
 
 2. **Install Backend Dependencies**
@@ -99,7 +99,7 @@ government-schemes-portal/
    **server/config/dev.js**
    \`\`\`javascript
    module.exports = {
-     MONGO_URI: "mongodb://localhost:27017/government-schemes",
+     MONGO_URI: "mongodb://localhost:27017/FindScheme",
      JWT_SECRET: "your-jwt-secret-key-here"
    };
    \`\`\`
@@ -132,7 +132,7 @@ government-schemes-portal/
 
 ### Environment Variables
 
-For  deployment, set the following environment variables:
+For production deployment, set the following environment variables:
 
 - `NODE_ENV=production`
 - `MONGO_URI` - MongoDB connection string
@@ -188,24 +188,4 @@ The application uses MongoDB with the following collections:
 - **Role-based Access**: Different permissions for users and administrators
 - **Input Validation**: Server-side validation for all user inputs
 - **CORS Protection**: Configured for secure cross-origin requests
-
-
-1. **Build the Frontend**
-   \`\`\`bash
-   cd client
-   npm run build
-   \`\`\`
-
-2. **Set Environment Variables**
-   \`\`\`bash
-   export NODE_ENV=production
-   export MONGO_URI="your-mongodb-connection-string"
-   export JWT_SECRET="your-jwt-secret"
-   \`\`\`
-
-3. **Start the Production Server**
-   \`\`\`bash
-   cd server
-   npm start
-   \`\`\`
 
